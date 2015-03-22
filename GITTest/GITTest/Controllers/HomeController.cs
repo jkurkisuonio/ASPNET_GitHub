@@ -11,6 +11,7 @@ namespace GITTest.Controllers
 		public ActionResult Index()
 		{
 			ViewBag.Title = "Home Page";
+			ViewBag.Text = "joo";
 
 			return View();
 		}
